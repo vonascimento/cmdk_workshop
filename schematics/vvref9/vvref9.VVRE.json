@@ -167,7 +167,8 @@
             "description" : "Region 0",
             "displayOrder" : 1,
             "objectType" : "REGION",
-            "parentObjectCode" : 8911355
+            "parentObjectCode" : 8911355,
+            "tabGroupSelection" : false
           } ],
           "code" : 8911355,
           "description" : "Master region",

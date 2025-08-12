@@ -12,7 +12,7 @@
       "attributes" : [ {
         "IeTooltip" : false,
         "alinharDireita" : false,
-        "code" : 8361721,
+        "code" : 17111368,
         "criarDescFk" : false,
         "criarDescricao" : false,
         "dbClickReadOnly" : false,
@@ -26,9 +26,7 @@
         "isDialectField" : false,
         "leftAnchored" : false,
         "lineBreak" : false,
-        "logOptions" : {
-          "logUpdates" : "N"
-        },
+        "logOptions" : { },
         "mandatory" : false,
         "nmAtributo" : "DS_HISTORICO",
         "nmAtributoPai" : [ ],
@@ -40,11 +38,11 @@
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
         "tooltip" : "Histórico",
-        "tooltipExpressionCode" : 852477
+        "tooltipExpressionCode" : 825079
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
-        "code" : 8361722,
+        "code" : 17111369,
         "criarDescFk" : false,
         "criarDescricao" : false,
         "dbClickReadOnly" : false,
@@ -58,9 +56,7 @@
         "isDialectField" : false,
         "leftAnchored" : false,
         "lineBreak" : false,
-        "logOptions" : {
-          "logUpdates" : "N"
-        },
+        "logOptions" : { },
         "mandatory" : false,
         "nmAtributo" : "IE_TIPO",
         "nmAtributoPai" : [ ],
@@ -76,7 +72,7 @@
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
-        "code" : 8361723,
+        "code" : 17111370,
         "criarDescFk" : false,
         "criarDescricao" : false,
         "dbClickReadOnly" : false,
@@ -90,10 +86,8 @@
         "isDialectField" : false,
         "leftAnchored" : false,
         "lineBreak" : false,
-        "logOptions" : {
-          "logUpdates" : "N"
-        },
-        "mandatory" : true,
+        "logOptions" : { },
+        "mandatory" : false,
         "nmAtributo" : "NR_SEQUENCIA",
         "nmAtributoPai" : [ ],
         "nmAttributeTableRef" : [ "" ],
@@ -103,13 +97,12 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "NUMBER",
-        "tooltip" : "Selecione o grupo de trabalho que se aplica à regra.",
-        "tooltipExpressionCode" : 914987,
-        "vlDefault" : "@Sequence"
+        "tooltip" : "Sequencial",
+        "tooltipExpressionCode" : 488948
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
-        "code" : 8361724,
+        "code" : 17111371,
         "criarDescFk" : false,
         "criarDescricao" : false,
         "dbClickReadOnly" : false,
@@ -123,9 +116,7 @@
         "isDialectField" : false,
         "leftAnchored" : false,
         "lineBreak" : false,
-        "logOptions" : {
-          "logUpdates" : "N"
-        },
+        "logOptions" : { },
         "mandatory" : false,
         "nmAtributo" : "NR_SEQ_AUTORIZACAO",
         "nmAtributoPai" : [ ],
@@ -136,8 +127,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "NUMBER",
-        "tooltip" : "Número autorização",
-        "tooltipExpressionCode" : 868977
+        "tooltip" : "Seq autor",
+        "tooltipExpressionCode" : 306292
       } ],
       "description" : "Histórico de autorizações",
       "fieldVisionOnly" : true,
@@ -147,7 +138,7 @@
       "primaryKey" : [ ],
       "referenceViews" : [ ],
       "responsive" : true,
-      "table" : "VVRE_TPS_AUT_CONV",
+      "table" : "VVRE_TPS_AUT_CONV_HIST",
       "title" : "History ",
       "titleExpressionCode" : 291339
     }
