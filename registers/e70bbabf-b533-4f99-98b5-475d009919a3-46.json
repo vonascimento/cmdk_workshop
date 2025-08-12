@@ -1,0 +1,334 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "12/08/2025 14:06:37",
+      "sequence" : 500045,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "c128b7a8-339b-4b50-b7ff-42dbbb95acfb"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 38588
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 38588
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "12/08/2025 13:48:46"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "tpsantos"
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 23141
+    }, {
+      "column_name" : "QT_ALTURA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : "21"
+    }, {
+      "column_name" : "NM_ATRIBUTO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "CD_CONVENIO"
+    }, {
+      "column_name" : "IE_GRID",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "IE_TIPO_SELECAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "E"
+    }, {
+      "column_name" : "IE_RESULTADO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "S"
+    }, {
+      "column_name" : "DS_ITEM",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "Codigo convenio"
+    }, {
+      "column_name" : "NR_SEQ_APRESENT",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 5
+    }, {
+      "column_name" : "QT_TAM_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 12
+    }, {
+      "column_name" : "NR_SEQ_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 1
+    }, {
+      "column_name" : "IE_TIPO_ATRIBUTO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "NUMBER"
+    }, {
+      "column_name" : "IE_FOCUS",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "QT_DESLOCAMENTO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : "0"
+    }, {
+      "column_name" : "NR_COLUNAS",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 12
+    }, {
+      "column_name" : "IE_IGNORAR_ACENTUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "IE_OCULTAR_RESTRICAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "QT_TAM_ATRIB_DESC",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 12
+    }, {
+      "column_name" : "IE_TIPO_RESTRICAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 1
+    }, {
+      "column_name" : "IE_DESC_RESULT",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "IE_UTILIZA_TARJA_MAGNETICA",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "CD_EXP_ITEM",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 285268
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "tpsantos"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "12/08/2025 14:00:49"
+    }, {
+      "column_name" : "IE_INTERVALO_DATA",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "12/08/2025 14:06:37",
+      "sequence" : 500046,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "2014e9ac-5903-456a-893d-561173f1d8ae"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 38587
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 38587
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "12/08/2025 13:47:16"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "tpsantos"
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 23141
+    }, {
+      "column_name" : "QT_ALTURA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : "21"
+    }, {
+      "column_name" : "NM_ATRIBUTO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "DS_CONVENIO"
+    }, {
+      "column_name" : "IE_GRID",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "S"
+    }, {
+      "column_name" : "IE_TIPO_SELECAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "E"
+    }, {
+      "column_name" : "IE_RESULTADO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "DS_ITEM",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "Convenio"
+    }, {
+      "column_name" : "NR_SEQ_APRESENT",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 10
+    }, {
+      "column_name" : "QT_TAM_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 12
+    }, {
+      "column_name" : "NR_SEQ_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 10
+    }, {
+      "column_name" : "IE_TIPO_ATRIBUTO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "VARCHAR2"
+    }, {
+      "column_name" : "IE_FOCUS",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "QT_DESLOCAMENTO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : "0"
+    }, {
+      "column_name" : "NR_COLUNAS",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 12
+    }, {
+      "column_name" : "IE_IGNORAR_ACENTUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "IE_OCULTAR_RESTRICAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "QT_TAM_ATRIB_DESC",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 12
+    }, {
+      "column_name" : "IE_TIPO_RESTRICAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 3
+    }, {
+      "column_name" : "IE_DESC_RESULT",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "S"
+    }, {
+      "column_name" : "IE_UTILIZA_TARJA_MAGNETICA",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    }, {
+      "column_name" : "QT_TAM_COLUNA_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 500
+    }, {
+      "column_name" : "CD_EXP_ITEM",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 286186
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "tpsantos"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "12/08/2025 13:57:35"
+    }, {
+      "column_name" : "IE_INTERVALO_DATA",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "N"
+    } ]
+  } ]
+}
