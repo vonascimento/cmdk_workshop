@@ -1,0 +1,121 @@
+{
+  "identifier" : "VVRE",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "avoidMemoryLeaks" : true,
+      "dialogs" : [ ],
+      "disableDeveloperBar" : false,
+      "experimentalFeatures" : { },
+      "externalAccessItens" : {
+        "ALL_FEATURES" : [ ],
+        "SPOTLIGHT_FEATURES" : [ ]
+      },
+      "externalAcessModal" : false,
+      "featureCode" : 99682,
+      "globalPopups" : [ ],
+      "metadataToFile" : true,
+      "noDataExpressionCode" : 397569,
+      "children" : [ {
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "children" : [ {
+                "children" : [ ],
+                "cmdkMetadataCustomization" : false,
+                "code" : 5472186,
+                "componentType" : "WFILTRO",
+                "customProperties" : {
+                  "enableMultiFilters" : "N"
+                },
+                "description" : "Filtro Autorizações",
+                "dictionaryCode" : 5489172,
+                "experimentalFeatures" : {
+                  "experimentalForm" : false
+                },
+                "metadataFile" : true,
+                "objectType" : "COMPONENT",
+                "params" : [ ],
+                "parentObjectCode" : 3392158,
+                "properties" : {
+                  "closeAfterSearch" : false,
+                  "lazyLoadDetail" : false,
+                  "modal" : false,
+                  "openOnShow" : true,
+                  "orientation" : "TOP",
+                  "responsive" : false
+                }
+              } ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 3392158,
+              "componentType" : "WCPANEL",
+              "customProperties" : {
+                "showDynamicReport" : "N"
+              },
+              "description" : "Autorizações",
+              "dictionaryCode" : 3407090,
+              "displayOrder" : 1,
+              "legends" : [ ],
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ ],
+              "parentObjectCode" : 3386451,
+              "properties" : {
+                "autoCreateChild" : true,
+                "editableGrid" : false,
+                "emptyActivation" : false,
+                "multiSelection" : false,
+                "paginationType" : "P",
+                "reportConfigVisible" : false,
+                "saveGridColumnOrder" : false,
+                "selectFirstRow" : true,
+                "unificarCountRegistros" : false,
+                "useNewGrid" : true,
+                "usePagination" : false
+              },
+              "reports" : [ ]
+            } ],
+            "code" : 3386451,
+            "description" : "Region 0",
+            "displayOrder" : 1,
+            "objectType" : "REGION",
+            "parentObjectCode" : 3386450,
+            "tabGroupSelection" : false
+          } ],
+          "code" : 3386450,
+          "description" : "Master region",
+          "masterRegionType" : "LAYOUT_A",
+          "objectType" : "MASTER_REGION",
+          "parentObjectCode" : 3311262
+        } ],
+        "code" : 3311262,
+        "description" : "Panel",
+        "displayOrder" : 1,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "objectType" : "PANEL",
+        "panelWidth" : 6,
+        "parentObjectCode" : 755000520
+      }, {
+        "children" : [ ],
+        "code" : 3311263,
+        "description" : "Panel",
+        "displayOrder" : 2,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "objectType" : "PANEL",
+        "panelWidth" : 6,
+        "parentObjectCode" : 755000520
+      } ],
+      "code" : 755000520,
+      "componentType" : "WSCH",
+      "description" : "Schematic - 12",
+      "objectType" : "SCHEMATIC",
+      "parentObjectCode" : 0,
+      "schematicFeatureCode" : 755000520,
+      "version" : "1.7.0"
+    }
+  } ],
+  "type" : "PARTNER"
+}

@@ -102,7 +102,7 @@
         "nrSequencia" : 4776327,
         "options" : [ ],
         "ordem" : 50,
-        "qtLargura" : 2,
+        "qtLargura" : 4,
         "sensitive" : false,
         "tipoColuna" : "Varchar",
         "tipoTotalizador" : "N",
