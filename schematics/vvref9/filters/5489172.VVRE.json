@@ -37,7 +37,7 @@
         "multiselect" : "N",
         "nmAtributo" : "CD_CONVENIO",
         "nmAtributoPai" : [ ],
-        "nrSeqLocalizador" : 151,
+        "nrSeqLocalizador" : 23145,
         "options" : [ ],
         "readOnly" : false,
         "sensitive" : false,
