@@ -1,0 +1,53 @@
+{
+  "identifier" : "VVRE",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "allowCmdkCustomization" : true,
+      "description" : "Filtro autorizações",
+      "dimensions" : [ ],
+      "filterUseCache" : false,
+      "gruposVisao" : { },
+      "listaMetaAtributos" : [ {
+        "IeTooltip" : false,
+        "alinharDireita" : false,
+        "canClean" : true,
+        "code" : 5617320,
+        "componente" : "TEXTBOX_LOCATOR",
+        "dependentFields" : [ ],
+        "displayButtonToday" : false,
+        "displayCurrentTime" : true,
+        "displayWeekday" : false,
+        "editableDescription" : false,
+        "enabled" : true,
+        "filterComponentType" : "WJTFL",
+        "hiddenByUser" : false,
+        "ieInfoPatient" : false,
+        "ieSalvar" : true,
+        "ieTipoAction" : "N",
+        "ieVisible" : true,
+        "initialFocus" : false,
+        "label" : "Insurance",
+        "labelExpressionCode" : 286193,
+        "largura" : 12,
+        "leftAnchored" : false,
+        "lineBreak" : false,
+        "mandatory" : false,
+        "multiselect" : "N",
+        "nmAtributo" : "CD_CONVENIO",
+        "nmAtributoPai" : [ ],
+        "nrSeqLocalizador" : 151,
+        "options" : [ ],
+        "readOnly" : false,
+        "sensitive" : false,
+        "tabStop" : true,
+        "tipoAtributo" : "VARCHAR2",
+        "tooltip" : "Insurance",
+        "tooltipExpressionCode" : 286193,
+        "useCheckboxCluster" : false
+      } ]
+    }
+  } ],
+  "type" : "PARTNER"
+}
