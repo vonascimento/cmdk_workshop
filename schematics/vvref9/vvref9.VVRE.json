@@ -104,7 +104,7 @@
               "checkParentsRelease" : false,
               "children" : [ ],
               "cmdkMetadataCustomization" : false,
-              "code" : 8933104,
+              "code" : 24118600,
               "componentType" : "WDBPANEL",
               "crudRules" : [ ],
               "customProperties" : {
@@ -120,7 +120,7 @@
               "metadataFile" : true,
               "objectType" : "COMPONENT",
               "params" : [ {
-                "code" : 9048432,
+                "code" : 25716920,
                 "criteria" : 8952463,
                 "function" : 0,
                 "masterCode" : 3392158,
@@ -129,7 +129,7 @@
                 "parameterCode" : 0,
                 "parameterName" : "NR_SEQ_AUTORIZACAO",
                 "parameterSeq" : 0,
-                "parentObjectCode" : 8933104
+                "parentObjectCode" : 24118600
               } ],
               "parentObjectCode" : 8911356,
               "properties" : {
