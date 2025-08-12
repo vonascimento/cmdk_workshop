@@ -1,0 +1,170 @@
+{
+  "identifier" : "VVRE",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "avoidMemoryLeaks" : true,
+      "dialogs" : [ ],
+      "disableDeveloperBar" : false,
+      "experimentalFeatures" : { },
+      "externalAccessItens" : {
+        "ALL_FEATURES" : [ ],
+        "SPOTLIGHT_FEATURES" : [ ]
+      },
+      "externalAcessModal" : false,
+      "featureCode" : 99680,
+      "globalPopups" : [ ],
+      "metadataToFile" : true,
+      "noDataExpressionCode" : 397569,
+      "children" : [ {
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "checkParentsRelease" : false,
+              "children" : [ ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 937660789,
+              "componentType" : "WDBPANEL",
+              "crudRules" : [ ],
+              "customProperties" : {
+                "allowBatchSignature" : "N",
+                "showDynamicReport" : "N",
+                "withoutCache" : "N"
+              },
+              "description" : "Lista_setores",
+              "displayOrder" : 1,
+              "isMaster" : false,
+              "legends" : [ ],
+              "masterObjectCode" : 0,
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ ],
+              "parentObjectCode" : 937493063,
+              "properties" : {
+                "action" : "",
+                "activateOnDetail" : false,
+                "autoCreateChild" : false,
+                "cacheDetailViews" : false,
+                "checkReportRelease" : true,
+                "confirmReleaseRecord" : false,
+                "destroyDetail" : false,
+                "editableGrid" : false,
+                "emptyActivation" : false,
+                "gridWhenSave" : true,
+                "lazyLoadDetail" : false,
+                "multiSelection" : false,
+                "onlyDetail" : false,
+                "pageSize" : 0,
+                "paginationType" : "P",
+                "qtMaxRecord" : 0,
+                "readOnlyType" : "S",
+                "reportConfigVisible" : false,
+                "responsive" : false,
+                "saveGridColumnOrder" : false,
+                "selectFirstRow" : false,
+                "unificarCountRegistros" : true,
+                "useNewGrid" : true,
+                "usePagination" : true
+              },
+              "reports" : [ ],
+              "signatureConfigured" : false,
+              "viewCode" : 937672003
+            } ],
+            "code" : 937493063,
+            "description" : "Region 0",
+            "displayOrder" : 1,
+            "objectType" : "REGION",
+            "parentObjectCode" : 937493062,
+            "tabGroupSelection" : false
+          } ],
+          "code" : 937493062,
+          "description" : "Master region",
+          "masterRegionType" : "LAYOUT_A",
+          "objectType" : "MASTER_REGION",
+          "parentObjectCode" : 937445567
+        } ],
+        "code" : 937445567,
+        "description" : "Panel",
+        "displayOrder" : 1,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "objectType" : "PANEL",
+        "panelWidth" : 4,
+        "parentObjectCode" : 754937363
+      }, {
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "children" : [ ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 938444810,
+              "componentType" : "WCPANEL",
+              "customProperties" : {
+                "showDynamicReport" : "N"
+              },
+              "description" : "Lista_Pacientes",
+              "dictionaryCode" : 938455506,
+              "displayOrder" : 1,
+              "legends" : [ ],
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ {
+                "code" : 940372215,
+                "function" : 0,
+                "masterCode" : 937660789,
+                "masterName" : "CD_SETOR_ATENDIMENTO",
+                "originParam" : "OBJECT",
+                "parameterCode" : 0,
+                "parameterName" : "CD_SETOR_ATENDIMENTO",
+                "parameterSeq" : 0,
+                "parentObjectCode" : 938444810
+              } ],
+              "parentObjectCode" : 938426486,
+              "properties" : {
+                "autoCreateChild" : false,
+                "editableGrid" : false,
+                "emptyActivation" : false,
+                "multiSelection" : false,
+                "paginationType" : "P",
+                "reportConfigVisible" : false,
+                "saveGridColumnOrder" : false,
+                "selectFirstRow" : false,
+                "unificarCountRegistros" : false,
+                "useNewGrid" : true
+              },
+              "reports" : [ ]
+            } ],
+            "code" : 938426486,
+            "description" : "Region 0",
+            "displayOrder" : 1,
+            "objectType" : "REGION",
+            "parentObjectCode" : 938426485,
+            "tabGroupSelection" : false
+          } ],
+          "code" : 938426485,
+          "description" : "Master region",
+          "masterRegionType" : "LAYOUT_A",
+          "objectType" : "MASTER_REGION",
+          "parentObjectCode" : 937445568
+        } ],
+        "code" : 937445568,
+        "description" : "Panel",
+        "displayOrder" : 2,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "objectType" : "PANEL",
+        "panelWidth" : 8,
+        "parentObjectCode" : 754937363
+      } ],
+      "code" : 754937363,
+      "componentType" : "WSCH",
+      "description" : "Schematic - 12",
+      "objectType" : "SCHEMATIC",
+      "parentObjectCode" : 0,
+      "schematicFeatureCode" : 754937363,
+      "version" : "1.7.0"
+    }
+  } ],
+  "type" : "PARTNER"
+}
