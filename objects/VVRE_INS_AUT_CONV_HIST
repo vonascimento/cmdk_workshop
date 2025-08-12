@@ -1,0 +1,25 @@
+create or replace procedure VVRE_INS_AUT_CONV_HIST(
+ NR_SEQ_AUTORIZACAO_p  in  number,
+ DS_HISTORICO_p    in  varchar2) is
+
+
+VVRE_AUT_CONV_HIST_w VVRE_AUT_CONV_HIST%rowtype;
+
+begin
+update autorizacao_convenio
+set nr_seq_estagio = 21
+where nr_sequencia = NR_SEQ_AUTORIZACAO_p;
+
+select VVRE_AUT_CONV_HIST_seq.nextval
+into VVRE_AUT_CONV_HIST_w.NR_SEQUENCIA
+from dual;
+
+VVRE_AUT_CONV_HIST_w.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;
+VVRE_AUT_CONV_HIST_w.DS_HISTORICO  := DS_HISTORICO_p;
+VVRE_AUT_CONV_HIST_w.IE_TIPO   := 'I';
+
+insert into VVRE_AUT_CONV_HIST values VVRE_AUT_CONV_HIST_w;
+
+commit;
+end VVRE_INS_AUT_CONV_HIST;
+/
