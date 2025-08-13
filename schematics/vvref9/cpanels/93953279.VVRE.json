@@ -65,7 +65,7 @@
       } ],
       "configurable" : "N",
       "description" : "Materiais da Autorização",
-      "query" : "SELECT\nma.CD_MATERIAL,\nobter_desc_material(ma.CD_MATERIAL) DS_MATERIAL,\nma.DS_OBSERVACAO\nFROM\nMATERIAL_AUTORIZADO ma\nWHERE 1=1\nAND ma.NR_SEQ_AUTORIZACAO = :NR_SEQUENCIA\nORDER BY DS_MATERIAL",
+      "query" : "SELECT\nma.CD_MATERIAL,\nobter_desc_material(ma.CD_MATERIAL) DS_MATERIAL,\nma.DS_OBSERVACAO\nFROM\nMATERIAL_AUTORIZADO ma\nWHERE 1=1\nAND ma.NR_SEQUENCIA_AUTOR = :NR_SEQ_AUTORIZACAO\nORDER BY DS_MATERIAL",
       "title" : "Materials of the authorization",
       "titleExpressionCode" : 345239
     }

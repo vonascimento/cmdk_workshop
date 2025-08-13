@@ -1,0 +1,65 @@
+{
+  "identifier" : "VVRE",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "description" : "Change insurance authorization stage",
+      "expressionCode" : 323232,
+      "expressionCodeDescription" : "Change insurance authorization stage",
+      "featureCode" : 99682,
+      "children" : [ {
+        "buttonColor" : "C",
+        "buttonType" : "CANCEL",
+        "children" : [ ],
+        "code" : 109784303,
+        "description" : "Cancel",
+        "displayOrder" : 1,
+        "events" : [ ],
+        "expressionCode" : 302745,
+        "expressionDescription" : "Cancel",
+        "objectType" : "BUTTON",
+        "parentObjectCode" : 109784302
+      }, {
+        "buttonColor" : "A",
+        "buttonType" : "OK",
+        "children" : [ ],
+        "code" : 109784304,
+        "description" : "OK",
+        "displayOrder" : 2,
+        "events" : [ ],
+        "expressionCode" : 311702,
+        "expressionDescription" : "OK",
+        "objectType" : "BUTTON",
+        "parentObjectCode" : 109784302
+      }, {
+        "children" : [ ],
+        "cmdkMetadataCustomization" : false,
+        "code" : 110854197,
+        "componentType" : "WDYNAMICFORM",
+        "description" : "WDLGAlterarEstagios",
+        "dictionaryCode" : 110858384,
+        "metadataFile" : true,
+        "objectType" : "COMPONENT",
+        "params" : [ ],
+        "parentObjectCode" : 109784302,
+        "properties" : {
+          "aiButtonFillForm" : false
+        }
+      } ],
+      "code" : 109784302,
+      "componentType" : "WDLG",
+      "dlgBasedOnPatientBarPosition" : true,
+      "modal" : false,
+      "objectType" : "COMPONENT",
+      "parentObjectCode" : 0,
+      "percentage" : false,
+      "position" : "C",
+      "properties" : {
+        "height" : 500,
+        "width" : 500
+      }
+    }
+  } ],
+  "type" : "PARTNER"
+}

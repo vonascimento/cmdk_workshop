@@ -1,0 +1,52 @@
+{
+  "identifier" : "VVRE",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "allowCmdkCustomization" : true,
+      "description" : "Estágios",
+      "dimensions" : [ ],
+      "gruposVisao" : { },
+      "listaMetaAtributos" : [ {
+        "IeTooltip" : false,
+        "alinharDireita" : false,
+        "altura" : 12,
+        "code" : 110886340,
+        "componente" : "LISTBOX",
+        "dependentFields" : [ ],
+        "displayButtonToday" : false,
+        "displayCurrentTime" : false,
+        "displayWeekday" : false,
+        "editableDescription" : false,
+        "enabled" : true,
+        "filterComponentType" : "WDBLCB",
+        "hiddenByUser" : false,
+        "ieInfoPatient" : false,
+        "ieVisible" : true,
+        "initialFocus" : false,
+        "label" : "Authorization stage",
+        "labelExpressionCode" : 304268,
+        "largura" : 12,
+        "leftAnchored" : false,
+        "lineBreak" : true,
+        "mandatory" : true,
+        "multiselect" : "N",
+        "nmAtributo" : "NR_SEQUENCIA",
+        "nmAtributoPai" : [ ],
+        "nrSeqDicObjeto" : 105795,
+        "options" : [ ],
+        "readOnly" : false,
+        "referenceTable" : "",
+        "sensitive" : false,
+        "tabStop" : false,
+        "tipoAtributo" : "NUMBER",
+        "tooltip" : "Authorization stage",
+        "tooltipExpressionCode" : 304268,
+        "useCheckboxCluster" : false,
+        "widthHTML" : 50
+      } ]
+    }
+  } ],
+  "type" : "PARTNER"
+}
