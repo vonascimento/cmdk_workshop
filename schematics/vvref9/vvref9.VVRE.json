@@ -75,6 +75,31 @@
                 "usePagination" : false
               },
               "reports" : [ ]
+            }, {
+              "children" : [ ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 95537239,
+              "componentType" : "WFILTRO",
+              "customProperties" : {
+                "enableMultiFilters" : "N"
+              },
+              "description" : "Filter",
+              "dictionaryCode" : 95541161,
+              "experimentalFeatures" : {
+                "experimentalForm" : false
+              },
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ ],
+              "parentObjectCode" : 3386451,
+              "properties" : {
+                "closeAfterSearch" : false,
+                "lazyLoadDetail" : false,
+                "modal" : false,
+                "openOnShow" : true,
+                "orientation" : "LEFT",
+                "responsive" : false
+              }
             } ],
             "code" : 3386451,
             "description" : "Region 0",
@@ -216,7 +241,61 @@
             "restrictPrimaryLevel" : "N",
             "restrictSecondaryLevel" : "N",
             "restrictTertiaryLevel" : "N",
-            "children" : [ ],
+            "children" : [ {
+              "children" : [ {
+                "children" : [ {
+                  "children" : [ ],
+                  "cmdkMetadataCustomization" : false,
+                  "code" : 93945834,
+                  "componentType" : "WCPANEL",
+                  "customProperties" : {
+                    "showDynamicReport" : "N"
+                  },
+                  "description" : "CPanel",
+                  "dictionaryCode" : 93953279,
+                  "displayOrder" : 1,
+                  "legends" : [ ],
+                  "metadataFile" : true,
+                  "objectType" : "COMPONENT",
+                  "params" : [ {
+                    "code" : 95459469,
+                    "function" : 0,
+                    "masterCode" : 3392158,
+                    "masterName" : "NR_SEQUENCIA",
+                    "originParam" : "OBJECT",
+                    "parameterCode" : 0,
+                    "parameterName" : "NR_SEQ_AUTORIZACAO",
+                    "parameterSeq" : 0,
+                    "parentObjectCode" : 93945834
+                  } ],
+                  "parentObjectCode" : 93929480,
+                  "properties" : {
+                    "autoCreateChild" : false,
+                    "editableGrid" : false,
+                    "emptyActivation" : false,
+                    "multiSelection" : false,
+                    "paginationType" : "P",
+                    "reportConfigVisible" : false,
+                    "saveGridColumnOrder" : false,
+                    "selectFirstRow" : false,
+                    "unificarCountRegistros" : false,
+                    "useNewGrid" : true
+                  },
+                  "reports" : [ ]
+                } ],
+                "code" : 93929480,
+                "description" : "Region 0",
+                "displayOrder" : 1,
+                "objectType" : "REGION",
+                "parentObjectCode" : 93929479,
+                "tabGroupSelection" : false
+              } ],
+              "code" : 93929479,
+              "description" : "Master region",
+              "masterRegionType" : "LAYOUT_A",
+              "objectType" : "MASTER_REGION",
+              "parentObjectCode" : 26509133
+            } ],
             "code" : 26509133,
             "configurable" : true,
             "hasObjSchemRules" : false,
