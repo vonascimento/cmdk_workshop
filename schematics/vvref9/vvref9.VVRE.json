@@ -23,7 +23,7 @@
             "children" : [ {
               "children" : [ {
                 "children" : [ ],
-                "cmdkMetadataCustomization" : true,
+                "cmdkMetadataCustomization" : false,
                 "code" : 5472186,
                 "componentType" : "WFILTRO",
                 "customProperties" : {
