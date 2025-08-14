@@ -1,0 +1,109 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "14/08/2025 13:30:38",
+      "sequence" : 500169,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TABELA_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "bc9d0c15-5c82-466d-8770-c7903104a126"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_TABELA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_TPS_AUT_CONV_HIST",
+      "old_value" : "VVRE_TPS_AUT_CONV_HIST"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_TABELA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_TPS_AUT_CONV_HIST",
+      "old_value" : "VVRE_TPS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_REGRA_ATRIBUTO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : "N"
+    }, {
+      "column_name" : "IE_REGRA_TABELA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : "N"
+    }, {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "14/08/2025 13:25:43",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/08/2025 13:30:38",
+      "sequence" : 500170,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "INDICE",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "7aadf986-8518-4843-84ed-3274624f0559"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_TABELA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_TPS_AUT_CONV_HIST",
+      "old_value" : "VVRE_TPS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "NM_INDICE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VTPACH_PK",
+      "old_value" : "VTPACH_PK"
+    } ],
+    "column_values" : [ {
+      "column_name" : "DS_INDICE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "",
+      "old_value" : "Chave prim\u00e1ria"
+    }, {
+      "column_name" : "NM_TABELA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_TPS_AUT_CONV_HIST",
+      "old_value" : "VVRE_TPS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_IGNORADO_CLIENTE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_MENSAGEM",
+      "data_type" : "VARCHAR2",
+      "new_value" : "",
+      "old_value" : null
+    } ]
+  } ]
+}
