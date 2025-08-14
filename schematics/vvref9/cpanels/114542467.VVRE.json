@@ -1,0 +1,54 @@
+{
+  "identifier" : "VVRE",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "allowCmdkCustomization" : true,
+      "columns" : [ {
+        "componente" : "TEXTBOX",
+        "configurableType" : "N",
+        "hiddenByUser" : false,
+        "ieReadOnly" : true,
+        "ieTotalizar" : false,
+        "ieVisible" : true,
+        "inlineComponente" : "ed",
+        "labelColuna" : "Material code",
+        "labelExpressionCode" : 327758,
+        "layout" : "T",
+        "nmCampoBase" : "CD_MATERIAL",
+        "nrSequencia" : 114572365,
+        "options" : [ ],
+        "ordem" : 1,
+        "sensitive" : false,
+        "tipoColuna" : "Number",
+        "tipoTotalizador" : "N",
+        "userCanConfig" : true
+      }, {
+        "componente" : "TEXTBOX",
+        "configurableType" : "N",
+        "hiddenByUser" : false,
+        "ieReadOnly" : true,
+        "ieTotalizar" : false,
+        "ieVisible" : true,
+        "inlineComponente" : "ed",
+        "labelColuna" : "Material",
+        "labelExpressionCode" : 292952,
+        "layout" : "T",
+        "nmCampoBase" : "DS_MATERIAL",
+        "nrSequencia" : 114602977,
+        "options" : [ ],
+        "ordem" : 20,
+        "qtLargura" : 250,
+        "sensitive" : false,
+        "tipoColuna" : "Varchar",
+        "tipoTotalizador" : "N",
+        "userCanConfig" : true
+      } ],
+      "configurable" : "N",
+      "description" : "Cadastro do Material",
+      "query" : "SELECT \nA.CD_GRUPO_MATERIAL,\nA.DS_GRUPO_MATERIAL,\nA.CD_SUBGRUPO_MATERIAL,\nA.DS_SUBGRUPO_MATERIAL,\nA.CD_MATERIAL,\nA.DS_MATERIAL\nFROM\nESTRUTURA_MATERIAL_V A\nWHERE A.IE_SITUACAO = 'A'\nAND A.CD_MATERIAL = :CD_MATERIAL"
+    }
+  } ],
+  "type" : "PARTNER"
+}
