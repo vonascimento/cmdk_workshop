@@ -1,0 +1,155 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "14/08/2025 13:22:36",
+      "sequence" : 900167,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "FUNCAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "43dd11bb-d853-4a3b-b4c4-55de5d1fb6d2"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99680,
+      "old_value" : 99680
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99680,
+      "old_value" : 99680
+    }, {
+      "column_name" : "DS_ROTA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "/vvref8tps",
+      "old_value" : "/vvref8tps"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/08/2025 13:22:36",
+      "sequence" : 900168,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "PARTNER_FUNCTION",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "11a5b316-0b61-4ac9-87b0-8c11fe240a92"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 610,
+      "old_value" : 610
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99680,
+      "old_value" : 99680
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 610,
+      "old_value" : 610
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/08/2025 13:22:36",
+      "sequence" : 900168,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "FUNCAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "5a9f1278-f4ac-43aa-93f3-b6ea5338c46a"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99682,
+      "old_value" : 99682
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99682,
+      "old_value" : 99682
+    }, {
+      "column_name" : "DS_ROTA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "/vvref9",
+      "old_value" : "/vvref9"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/08/2025 13:22:36",
+      "sequence" : 900169,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "PARTNER_FUNCTION",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "be039ecf-9b4e-43db-97ee-f75f062c499d"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 612,
+      "old_value" : 612
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99682,
+      "old_value" : 99682
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 612,
+      "old_value" : 612
+    } ]
+  } ]
+}
