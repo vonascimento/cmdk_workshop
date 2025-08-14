@@ -1,0 +1,56 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "14/08/2025 11:51:53",
+      "sequence" : 700164,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "c0a53ecd-de26-4a99-8b65-a7a02d2ff2e1"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "e00c1231e962",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE VVRE_GER_INS_AUT_CONV_HIST ( nr_seq_autorizacao_p  IN  NUMBER, ds_historico_p    IN  VARCHAR2, nr_seq_estagio_p  IN  NUMBER) IS\n\nvvre_tps_aut_conv_hist_w vvre_tps_aut_conv_hist%rowtype;\n\nBEGIN\nUPDATE autorizacao_convenio\nSET nr_seq_estagio = nr_seq_estagio_p\nWHERE nr_sequencia = nr_seq_autorizacao_p;\n\nSELECT vvre_tps_aut_conv_hist_seq.NEXTVAL\nINTO vvre_tps_aut_conv_hist_w.nr_sequencia\nFROM dual;\n\nvvre_tps_aut_conv_hist_w.nr_seq_autorizacao := nr_seq_autorizacao_p;\nvvre_tps_aut_conv_hist_w.ds_historico  := ds_historico_p;\nvvre_tps_aut_conv_hist_w.ie_tipo   := 'I';\n\nINSERT INTO vvre_tps_aut_conv_hist VALUES vvre_tps_aut_conv_hist_w;\n\nCOMMIT;\nEND VVRE_GER_INS_AUT_CONV_HIST;\n/",
+      "old_value" : "CREATE OR REPLACE PROCEDURE vvre_ger_ins_aut_conv_hist( nr_seq_autorizacao_p  IN  NUMBER, ds_historico_p    IN  VARCHAR2, nr_seq_estagio_p  IN  NUMBER) IS\n\nvvre_tps_aut_conv_hist_w vvre_tps_aut_conv_hist%rowtype;\n\nBEGIN\nUPDATE autorizacao_convenio\nSET nr_seq_estagio = nr_seq_estagio_p\nWHERE nr_sequencia = nr_seq_autorizacao_p;\n\nSELECT vvre_tps_aut_conv_hist_seq.NEXTVAL\nINTO vvre_tps_aut_conv_hist_w.nr_sequencia\nFROM dual;\n\nvvre_tps_aut_conv_hist_w.nr_seq_autorizacao := nr_seq_autorizacao_p;\nvvre_tps_aut_conv_hist_w.ds_historico  := ds_historico_p;\nvvre_tps_aut_conv_hist_w.ie_tipo   := 'I';\n\nINSERT INTO vvre_tps_aut_conv_hist VALUES vvre_tps_aut_conv_hist_w;\n\nCOMMIT;\nEND vvre_ger_ins_aut_conv_hist;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10152148,
+      "old_value" : 10152148
+    } ]
+  } ]
+}
