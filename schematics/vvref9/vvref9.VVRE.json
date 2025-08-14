@@ -5,7 +5,12 @@
     "path" : "/",
     "value" : {
       "avoidMemoryLeaks" : true,
-      "dialogs" : [ ],
+      "dialogs" : [ {
+        "code" : 109784302,
+        "route" : "alterarestagioautorizacao",
+        "title" : "Change insurance authorization stage",
+        "titleExpressionCode" : 323232
+      } ],
       "disableDeveloperBar" : false,
       "experimentalFeatures" : { },
       "externalAccessItens" : {
@@ -39,13 +44,64 @@
                 "params" : [ ],
                 "parentObjectCode" : 3392158,
                 "properties" : {
-                  "closeAfterSearch" : false,
+                  "closeAfterSearch" : true,
                   "lazyLoadDetail" : false,
                   "modal" : false,
                   "openOnShow" : true,
                   "orientation" : "TOP",
                   "responsive" : false
                 }
+              }, {
+                "code" : 108224597,
+                "componentType" : "WPOPUP",
+                "description" : "Alterar estágio",
+                "displayOrder" : 2,
+                "menuItems" : [ {
+                  "aiContextMenu" : false,
+                  "alignment" : "E",
+                  "children" : [ ],
+                  "code" : 108234890,
+                  "componentType" : "MENUITEM",
+                  "configurable" : "N",
+                  "enabled" : true,
+                  "events" : [ {
+                    "eventActions" : [ {
+                      "actionOrder" : 1,
+                      "actionSeq" : 109853554,
+                      "compReactivateCode" : 3392158,
+                      "dialogId" : "alterarestagioautorizacao",
+                      "eventAction" : "WDLG",
+                      "multipleBodyItemsSupported" : false,
+                      "params" : [ ],
+                      "reloadLine" : "S"
+                    } ],
+                    "eventSeq" : 109853553,
+                    "eventType" : "C"
+                  } ],
+                  "expressionCode" : 325347,
+                  "menuCode" : 108224597,
+                  "metadataFile" : false,
+                  "name" : "Change authorization stage",
+                  "objectType" : "COMPONENT",
+                  "order" : 1,
+                  "parentObjectCode" : 108224597,
+                  "rules" : [ ],
+                  "shortCutDto" : {
+                    "alt" : false,
+                    "ctrl" : false,
+                    "ieAtalho" : "F6",
+                    "itemCode" : 108234890,
+                    "keyCode" : 117,
+                    "shift" : true
+                  },
+                  "text" : "Change authorization stage",
+                  "topList" : false,
+                  "type" : "STANDARD",
+                  "visible" : true
+                } ],
+                "objectType" : "COMPONENT",
+                "parentObjectCode" : 3392158,
+                "popUpHandle" : "N"
               } ],
               "cmdkMetadataCustomization" : false,
               "code" : 3392158,
@@ -104,6 +160,77 @@
           "restrictSecondaryLevel" : "N",
           "restrictTertiaryLevel" : "N",
           "children" : [ {
+            "allowCmdkCustomization" : true,
+            "restrictPrimaryLevel" : "N",
+            "restrictSecondaryLevel" : "N",
+            "restrictTertiaryLevel" : "N",
+            "children" : [ {
+              "children" : [ {
+                "children" : [ {
+                  "children" : [ ],
+                  "cmdkMetadataCustomization" : false,
+                  "code" : 93945834,
+                  "componentType" : "WCPANEL",
+                  "customProperties" : {
+                    "showDynamicReport" : "N"
+                  },
+                  "description" : "CPanel",
+                  "dictionaryCode" : 93953279,
+                  "displayOrder" : 1,
+                  "legends" : [ ],
+                  "metadataFile" : true,
+                  "objectType" : "COMPONENT",
+                  "params" : [ {
+                    "code" : 95459469,
+                    "function" : 0,
+                    "masterCode" : 3392158,
+                    "masterName" : "NR_SEQUENCIA",
+                    "originParam" : "OBJECT",
+                    "parameterCode" : 0,
+                    "parameterName" : "NR_SEQ_AUTORIZACAO",
+                    "parameterSeq" : 0,
+                    "parentObjectCode" : 93945834
+                  } ],
+                  "parentObjectCode" : 93929480,
+                  "properties" : {
+                    "autoCreateChild" : false,
+                    "editableGrid" : false,
+                    "emptyActivation" : false,
+                    "multiSelection" : false,
+                    "paginationType" : "P",
+                    "reportConfigVisible" : false,
+                    "saveGridColumnOrder" : false,
+                    "selectFirstRow" : false,
+                    "unificarCountRegistros" : false,
+                    "useNewGrid" : true
+                  },
+                  "reports" : [ ]
+                } ],
+                "code" : 93929480,
+                "description" : "Region 0",
+                "displayOrder" : 1,
+                "objectType" : "REGION",
+                "parentObjectCode" : 93929479,
+                "tabGroupSelection" : false
+              } ],
+              "code" : 93929479,
+              "description" : "Master region",
+              "masterRegionType" : "LAYOUT_A",
+              "objectType" : "MASTER_REGION",
+              "parentObjectCode" : 26509133
+            } ],
+            "code" : 26509133,
+            "configurable" : true,
+            "hasObjSchemRules" : false,
+            "description" : "Materials of the authorization",
+            "displayOrder" : 10,
+            "expressionCode" : 345239,
+            "expressionDescription" : "Materials of the authorization",
+            "objectType" : "TAB",
+            "parentObjectCode" : 26445440,
+            "topList" : false,
+            "visible" : "S"
+          }, {
             "allowCmdkCustomization" : true,
             "restrictPrimaryLevel" : "N",
             "restrictSecondaryLevel" : "N",
@@ -204,26 +331,9 @@
             "configurable" : true,
             "hasObjSchemRules" : false,
             "description" : "History",
-            "displayOrder" : 1,
+            "displayOrder" : 20,
             "expressionCode" : 307786,
             "expressionDescription" : "History",
-            "objectType" : "TAB",
-            "parentObjectCode" : 26445440,
-            "topList" : false,
-            "visible" : "S"
-          }, {
-            "allowCmdkCustomization" : true,
-            "restrictPrimaryLevel" : "N",
-            "restrictSecondaryLevel" : "N",
-            "restrictTertiaryLevel" : "N",
-            "children" : [ ],
-            "code" : 26509133,
-            "configurable" : true,
-            "hasObjSchemRules" : false,
-            "description" : "Materials of the authorization",
-            "displayOrder" : 2,
-            "expressionCode" : 345239,
-            "expressionDescription" : "Materials of the authorization",
             "objectType" : "TAB",
             "parentObjectCode" : 26445440,
             "topList" : false,
