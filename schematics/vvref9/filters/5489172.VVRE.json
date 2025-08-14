@@ -126,6 +126,7 @@
         "tooltip" : "Has associated material/medicines",
         "tooltipExpressionCode" : 776142,
         "useCheckboxCluster" : false,
+        "vlDefault" : "S",
         "widthHTML" : 50
       } ]
     }
