@@ -1,0 +1,735 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500148,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "c541f751-620b-4fc0-abc4-66d7a777706d"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "QT_TAM_COLUNA_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : 30,
+      "old_value" : 10
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 12:24:09",
+      "old_value" : "12/08/2025 19:58:08"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500149,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "83ac2411-78a8-4f76-9386-552ae746b9f9"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "IE_GRID",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : "S"
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 12:42:02",
+      "old_value" : "13/08/2025 12:24:09"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 700150,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "0256d75f-bb35-4008-b2ce-38b64570a4d9"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "create or replace procedure VVRE_GER_INS_AUT_CONV_HIST( NR_SEQ_AUTORIZACAO_p  in  number, DS_HISTORICO_p    in  varchar2) is\n\nVVRE_TPS_AUT_CONV_HIST_W VVRE_TPS_AUT_CONV_HIST%rowtype;\n\nbegin\nupdate autorizacao_convenio\nset nr_seq_estagio = 21\nwhere nr_sequencia = NR_SEQ_AUTORIZACAO_p;\n\nselect VVRE_TPS_AUT_CONV_HIST_seq.nextval\ninto VVRE_TPS_AUT_CONV_HIST.NR_SEQUENCIA\nfrom dual;\n\nVVRE_TPS_AUT_CONV_HIST.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;\nVVRE_TPS_AUT_CONV_HIST.DS_HISTORICO  := DS_HISTORICO_p;\nVVRE_TPS_AUT_CONV_HIST.IE_TIPO   := 'I';\n\ninsert into VVRE_TPS_AUT_CONV_HIST values VVRE_TPS_AUT_CONV_HIST;\n\ncommit;\nend VVRE_GER_INS_AUT_CONV_HIST;\n/",
+      "old_value" : "create or replace procedure VVRE_GER_INS_AUT_CONV_HIST( NR_SEQ_AUTORIZACAO_p  in  number, DS_HISTORICO_p    in  varchar2) is\n\nVVRE_TPS_AUT_CONV_HIST VVRE_TPS_AUT_CONV_HIST%rowtype;\n\nbegin\nupdate autorizacao_convenio\nset nr_seq_estagio = 21\nwhere nr_sequencia = NR_SEQ_AUTORIZACAO_p;\n\nselect VVRE_TPS_AUT_CONV_HIST_seq.nextval\ninto VVRE_TPS_AUT_CONV_HIST.NR_SEQUENCIA\nfrom dual;\n\nVVRE_TPS_AUT_CONV_HIST.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;\nVVRE_TPS_AUT_CONV_HIST.DS_HISTORICO  := DS_HISTORICO_p;\nVVRE_TPS_AUT_CONV_HIST.IE_TIPO   := 'I';\n\ninsert into VVRE_TPS_AUT_CONV_HIST values VVRE_TPS_AUT_CONV_HIST;\n\ncommit;\nend VVRE_GER_INS_AUT_CONV_HIST;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10152148,
+      "old_value" : 10152148
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 700151,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "e0f2f4d1-2141-4eb6-8fde-f6bf44a38f7b"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "create or replace procedure VVRE_GER_INS_AUT_CONV_HIST( NR_SEQ_AUTORIZACAO_p  in  number, DS_HISTORICO_p    in  varchar2) is\n\nVVRE_TPS_AUT_CONV_HIST_W VVRE_TPS_AUT_CONV_HIST%rowtype;\n\nbegin\nupdate autorizacao_convenio\nset nr_seq_estagio = 21\nwhere nr_sequencia = NR_SEQ_AUTORIZACAO_p;\n\nselect VVRE_TPS_AUT_CONV_HIST_seq.nextval\ninto VVRE_TPS_AUT_CONV_HIST.NR_SEQUENCIA\nfrom dual;\n\nVVRE_TPS_AUT_CONV_HIST_W.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;\nVVRE_TPS_AUT_CONV_HIST_W.DS_HISTORICO  := DS_HISTORICO_p;\nVVRE_TPS_AUT_CONV_HIST_W.IE_TIPO   := 'I';\n\ninsert into VVRE_TPS_AUT_CONV_HIST values VVRE_TPS_AUT_CONV_HIST_W;\n\ncommit;\nend VVRE_GER_INS_AUT_CONV_HIST;\n/",
+      "old_value" : "create or replace procedure VVRE_GER_INS_AUT_CONV_HIST( NR_SEQ_AUTORIZACAO_p  in  number, DS_HISTORICO_p    in  varchar2) is\n\nVVRE_TPS_AUT_CONV_HIST_W VVRE_TPS_AUT_CONV_HIST%rowtype;\n\nbegin\nupdate autorizacao_convenio\nset nr_seq_estagio = 21\nwhere nr_sequencia = NR_SEQ_AUTORIZACAO_p;\n\nselect VVRE_TPS_AUT_CONV_HIST_seq.nextval\ninto VVRE_TPS_AUT_CONV_HIST.NR_SEQUENCIA\nfrom dual;\n\nVVRE_TPS_AUT_CONV_HIST.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;\nVVRE_TPS_AUT_CONV_HIST.DS_HISTORICO  := DS_HISTORICO_p;\nVVRE_TPS_AUT_CONV_HIST.IE_TIPO   := 'I';\n\ninsert into VVRE_TPS_AUT_CONV_HIST values VVRE_TPS_AUT_CONV_HIST;\n\ncommit;\nend VVRE_GER_INS_AUT_CONV_HIST;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10152148,
+      "old_value" : 10152148
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 700152,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "c943191c-e103-4f91-95df-32de297d8fe5"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "VVRE_GER_INS_AUT_CONV_HIST",
+      "old_value" : "VVRE_GER_INS_AUT_CONV_HIST"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "create or replace procedure VVRE_GER_INS_AUT_CONV_HIST( NR_SEQ_AUTORIZACAO_p  in  number, DS_HISTORICO_p    in  varchar2) is\n\nVVRE_TPS_AUT_CONV_HIST_W VVRE_TPS_AUT_CONV_HIST%rowtype;\n\nbegin\nupdate autorizacao_convenio\nset nr_seq_estagio = 21\nwhere nr_sequencia = NR_SEQ_AUTORIZACAO_p;\n\nselect VVRE_TPS_AUT_CONV_HIST_seq.nextval\ninto VVRE_TPS_AUT_CONV_HIST_W.NR_SEQUENCIA\nfrom dual;\n\nVVRE_TPS_AUT_CONV_HIST_W.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;\nVVRE_TPS_AUT_CONV_HIST_W.DS_HISTORICO  := DS_HISTORICO_p;\nVVRE_TPS_AUT_CONV_HIST_W.IE_TIPO   := 'I';\n\ninsert into VVRE_TPS_AUT_CONV_HIST values VVRE_TPS_AUT_CONV_HIST_W;\n\ncommit;\nend VVRE_GER_INS_AUT_CONV_HIST;\n/",
+      "old_value" : "create or replace procedure VVRE_GER_INS_AUT_CONV_HIST( NR_SEQ_AUTORIZACAO_p  in  number, DS_HISTORICO_p    in  varchar2) is\n\nVVRE_TPS_AUT_CONV_HIST_W VVRE_TPS_AUT_CONV_HIST%rowtype;\n\nbegin\nupdate autorizacao_convenio\nset nr_seq_estagio = 21\nwhere nr_sequencia = NR_SEQ_AUTORIZACAO_p;\n\nselect VVRE_TPS_AUT_CONV_HIST_seq.nextval\ninto VVRE_TPS_AUT_CONV_HIST.NR_SEQUENCIA\nfrom dual;\n\nVVRE_TPS_AUT_CONV_HIST_W.NR_SEQ_AUTORIZACAO := NR_SEQ_AUTORIZACAO_p;\nVVRE_TPS_AUT_CONV_HIST_W.DS_HISTORICO  := DS_HISTORICO_p;\nVVRE_TPS_AUT_CONV_HIST_W.IE_TIPO   := 'I';\n\ninsert into VVRE_TPS_AUT_CONV_HIST values VVRE_TPS_AUT_CONV_HIST_W;\n\ncommit;\nend VVRE_GER_INS_AUT_CONV_HIST;\n/"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10152148,
+      "old_value" : 10152148
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500153,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "960b6f66-2d76-4e51-8979-a5f8e9aa6899"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "IE_TIPO_SELECAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "E",
+      "old_value" : ""
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "VL_PADRAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : ""
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:53:46",
+      "old_value" : "12/08/2025 19:37:34"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500154,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "992118f9-1b3d-4336-a91a-366de06988d5"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "IE_GRID",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : "N"
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:54:18",
+      "old_value" : "13/08/2025 12:42:02"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500155,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "68c33307-dd13-412c-b293-bd07c0276956"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "DS_ITEM",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Convenio",
+      "old_value" : "Conv\u00eanio"
+    }, {
+      "column_name" : "IE_IGNORAR_ACENTUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : "N"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:54:41",
+      "old_value" : "13/08/2025 13:53:46"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500156,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "c0e692e4-9329-42b7-abb2-b3ccd93f1e7d"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "CD_EXP_ITEM",
+      "data_type" : "NUMBER",
+      "new_value" : 573299,
+      "old_value" : 286186
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:55:24",
+      "old_value" : "13/08/2025 13:54:41"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500157,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "7c35a6c6-2ca5-4040-bd02-44ea0252bafa"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38611,
+      "old_value" : 38611
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "IE_IGNORAR_ACENTUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : "S"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:55:41",
+      "old_value" : "13/08/2025 13:55:24"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500158,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "34af4c7a-c6b6-4809-ae4f-c8061b9f7850"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "QT_TAM_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : 30,
+      "old_value" : 10
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:56:45",
+      "old_value" : "13/08/2025 13:54:18"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 500159,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "TIPO_LOCALIZAR_ATRIBUTO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "tpsantos",
+      "guid" : "cbc65b90-e83d-4bbd-ba86-c80edb6e1113"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 38610,
+      "old_value" : 38610
+    }, {
+      "column_name" : "NR_SEQ_TIPO_LOCALIZAR",
+      "data_type" : "NUMBER",
+      "new_value" : 23145,
+      "old_value" : 23145
+    }, {
+      "column_name" : "CD_DOMINIO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : null
+    }, {
+      "column_name" : "QT_TAM_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : 12,
+      "old_value" : 30
+    }, {
+      "column_name" : "QT_TAM_ATRIB_DESC",
+      "data_type" : "NUMBER",
+      "new_value" : 12,
+      "old_value" : null
+    }, {
+      "column_name" : "QT_TAM_COLUNA_GRID",
+      "data_type" : "NUMBER",
+      "new_value" : 12,
+      "old_value" : 30
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "13/08/2025 13:57:34",
+      "old_value" : "13/08/2025 13:56:45"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 900160,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "FUNCAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "3e983bcb-cb06-4fa7-85f3-f80865842b12"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99682,
+      "old_value" : 99682
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99682,
+      "old_value" : 99682
+    }, {
+      "column_name" : "DS_ROTA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "/vvref9",
+      "old_value" : "/vvref9"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "13/08/2025 14:58:34",
+      "sequence" : 900161,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "PARTNER_FUNCTION",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "fd71de41-ce72-4061-b447-505f764fa58a"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb1"
+    },
+    "session_info" : {
+      "machine" : "0465e5611e89",
+      "os_user" : "root",
+      "tasy_user" : "tpsantos"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 612,
+      "old_value" : 612
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99682,
+      "old_value" : 99682
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 612,
+      "old_value" : 612
+    } ]
+  } ]
+}
