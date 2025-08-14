@@ -39,30 +39,28 @@
             "eventAction" : "PROC",
             "multipleBodyItemsSupported" : false,
             "params" : [ {
-              "code" : 112780155,
+              "code" : 180883566,
               "masterCode" : 3392158,
               "masterName" : "NR_SEQUENCIA",
               "originParam" : "OBJECT",
               "parameterName" : "NR_SEQ_AUTORIZACAO_P",
               "parameterSeq" : 1
             }, {
-              "code" : 112780156,
+              "code" : 180883567,
               "masterCode" : 112252337,
               "masterName" : "DS_HISTORICO",
               "originParam" : "OBJECT",
               "parameterName" : "DS_HISTORICO_P",
               "parameterSeq" : 2
             }, {
-              "code" : 171278342,
-              "function" : 0,
+              "code" : 180883568,
               "masterCode" : 112252337,
               "masterName" : "NR_SEQ_ESTAGIO",
               "originParam" : "OBJECT",
-              "parameterCode" : 0,
               "parameterName" : "NR_SEQ_ESTAGIO_P",
-              "parameterSeq" : 2
+              "parameterSeq" : 3
             } ],
-            "procedureCode" : 10152148,
+            "procedureCode" : 10152238,
             "reloadLine" : "S"
           } ],
           "eventSeq" : 112749555,
