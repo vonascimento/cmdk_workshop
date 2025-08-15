@@ -178,7 +178,75 @@
               "description" : "Autorizações",
               "dictionaryCode" : 3407090,
               "displayOrder" : 1,
-              "legends" : [ ],
+              "legends" : [ {
+                "active" : "S",
+                "category" : 304268,
+                "categoryDescription" : "Authorization stage",
+                "code" : 262662865,
+                "colors" : [ {
+                  "description" : "Authorized ",
+                  "expressionCode" : 284078,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "2195",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Cancelled",
+                  "expressionCode" : 322155,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "2196",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Not authorized",
+                  "expressionCode" : 331210,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "2197",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Pending authorization",
+                  "expressionCode" : 331358,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "2198",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Pending quotation",
+                  "expressionCode" : 331360,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "2199",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Pending release",
+                  "expressionCode" : 331364,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "2200",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Forwarded",
+                  "expressionCode" : 304200,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "5595",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Payment directly to the supplier",
+                  "expressionCode" : 609615,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "5007",
+                  "rules" : [ ]
+                }, {
+                  "description" : "Invoicing directly to the insurance",
+                  "expressionCode" : 609616,
+                  "nrSeqApres" : 100,
+                  "nrSequence" : "5008",
+                  "rules" : [ ]
+                } ],
+                "column" : "N",
+                "description" : "Autorização de Materiais Especiais",
+                "displayLebelLegend" : "N",
+                "icons" : [ ],
+                "keyAttribute" : "NR_SEQ_ESTAGIO",
+                "line" : "S",
+                "nrSequence" : 398,
+                "order" : "N"
+              } ],
               "metadataFile" : true,
               "objectType" : "COMPONENT",
               "params" : [ ],
