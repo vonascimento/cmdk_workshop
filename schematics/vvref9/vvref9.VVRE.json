@@ -102,6 +102,72 @@
                 "objectType" : "COMPONENT",
                 "parentObjectCode" : 3392158,
                 "popUpHandle" : "N"
+              }, {
+                "code" : 195004012,
+                "componentType" : "WPOPUP",
+                "description" : "AutorizaçãoConvênio",
+                "displayOrder" : 3,
+                "menuItems" : [ {
+                  "aiContextMenu" : false,
+                  "alignment" : "E",
+                  "children" : [ ],
+                  "code" : 195020572,
+                  "componentType" : "MENUITEM",
+                  "enabled" : true,
+                  "events" : [ {
+                    "eventActions" : [ {
+                      "actionOrder" : 2,
+                      "actionSeq" : 195060195,
+                      "compReactivateCode" : 3392158,
+                      "eventAction" : "EXTPPT",
+                      "externalAccessFeatureCode" : 916,
+                      "externalAccessFeatureName" : "Entrada Única de Pacientes",
+                      "externalAccessMethod" : "acessoExterno",
+                      "externalAccessRoute" : "admission",
+                      "multipleBodyItemsSupported" : false,
+                      "params" : [ {
+                        "code" : 199191989,
+                        "defaultValue" : "977871",
+                        "originParam" : "DEFAULT",
+                        "parameterName" : "NRATENDIMENTOCHAMADA",
+                        "parameterSeq" : 2
+                      }, {
+                        "code" : 199208332,
+                        "defaultValue" : "S",
+                        "originParam" : "DEFAULT",
+                        "parameterName" : "IEPASTAEXAME",
+                        "parameterSeq" : 2
+                      } ],
+                      "reloadLine" : "S"
+                    } ],
+                    "eventSeq" : 195060194,
+                    "eventType" : "C"
+                  } ],
+                  "expressionCode" : 307549,
+                  "externalCall" : "N",
+                  "menuCode" : 195004012,
+                  "metadataFile" : false,
+                  "name" : "Insurance authorization",
+                  "objectType" : "COMPONENT",
+                  "order" : 2,
+                  "parentObjectCode" : 195004012,
+                  "rules" : [ ],
+                  "shortCutDto" : {
+                    "alt" : false,
+                    "ctrl" : false,
+                    "ieAtalho" : "F10",
+                    "itemCode" : 195020572,
+                    "keyCode" : 121,
+                    "shift" : false
+                  },
+                  "text" : "Insurance authorization",
+                  "topList" : false,
+                  "type" : "BUTTON",
+                  "visible" : true
+                } ],
+                "objectType" : "COMPONENT",
+                "parentObjectCode" : 3392158,
+                "popUpHandle" : "N"
               } ],
               "cmdkMetadataCustomization" : false,
               "code" : 3392158,
@@ -119,7 +185,7 @@
               "parentObjectCode" : 3386451,
               "properties" : {
                 "autoCreateChild" : true,
-                "breadcrumbAttributeName" : "NR_SEQUENCIA",
+                "breadcrumbAttributeName" : "NM_PESSOA_FISICA_BC",
                 "breadcrumbTitle" : "Authorizations",
                 "breadcrumbTitleCode" : 307574,
                 "editableGrid" : false,
@@ -175,7 +241,59 @@
                       "children" : [ {
                         "children" : [ {
                           "checkParentsRelease" : false,
-                          "children" : [ ],
+                          "children" : [ {
+                            "code" : 193626570,
+                            "componentType" : "WPOPUP",
+                            "description" : "IrparaCadMat",
+                            "displayOrder" : 1,
+                            "menuItems" : [ {
+                              "aiContextMenu" : false,
+                              "alignment" : "E",
+                              "children" : [ ],
+                              "code" : 193635150,
+                              "componentType" : "MENUITEM",
+                              "enabled" : true,
+                              "events" : [ {
+                                "eventActions" : [ {
+                                  "actionOrder" : 1,
+                                  "actionSeq" : 193930129,
+                                  "compReactivateCode" : 115262764,
+                                  "eventAction" : "EXTPPT",
+                                  "externalAccessFeatureCode" : 132,
+                                  "externalAccessFeatureName" : "Cadastro de Materiais",
+                                  "externalAccessMethod" : "acessoExterno",
+                                  "externalAccessRoute" : "coretqf1",
+                                  "multipleBodyItemsSupported" : false,
+                                  "params" : [ {
+                                    "code" : 193966330,
+                                    "masterCode" : 93945834,
+                                    "masterName" : "CD_MATERIAL",
+                                    "originParam" : "OBJECT",
+                                    "parameterName" : "CD_MATERIAL",
+                                    "parameterSeq" : 1
+                                  } ],
+                                  "reloadLine" : "S"
+                                } ],
+                                "eventSeq" : 193930128,
+                                "eventType" : "C"
+                              } ],
+                              "expressionCode" : 318542,
+                              "menuCode" : 193626570,
+                              "metadataFile" : false,
+                              "name" : "Material Record",
+                              "objectType" : "COMPONENT",
+                              "order" : 1,
+                              "parentObjectCode" : 193626570,
+                              "rules" : [ ],
+                              "text" : "Material Record",
+                              "topList" : false,
+                              "type" : "STANDARD",
+                              "visible" : true
+                            } ],
+                            "objectType" : "COMPONENT",
+                            "parentObjectCode" : 115262764,
+                            "popUpHandle" : "N"
+                          } ],
                           "cmdkMetadataCustomization" : false,
                           "code" : 115262764,
                           "componentType" : "WDBPANEL",
@@ -185,7 +303,7 @@
                             "showDynamicReport" : "N",
                             "withoutCache" : "N"
                           },
-                          "description" : "CadMat",
+                          "description" : "Cadastro_Material",
                           "displayOrder" : 1,
                           "isMaster" : false,
                           "legends" : [ ],
@@ -370,7 +488,7 @@
                   "parentObjectCode" : 93929480,
                   "properties" : {
                     "autoCreateChild" : false,
-                    "breadcrumbAttributeName" : "CD_MATERIAL",
+                    "breadcrumbAttributeName" : "DS_MATERIAL_BC",
                     "breadcrumbTitle" : "Material",
                     "breadcrumbTitleCode" : 292952,
                     "editableGrid" : false,
