@@ -23,18 +23,18 @@
     "primary_key_values" : [ {
       "column_name" : "CD_EXPRESSAO",
       "data_type" : "NUMBER",
-      "new_value" : 1138823,
+      "new_value" : ,
       "old_value" : null
     } ],
     "column_values" : [ {
       "column_name" : "CD_EXPRESSAO",
       "data_type" : "NUMBER",
-      "new_value" : 1138823,
+      "new_value" : ,
       "old_value" : null
     }, {
       "column_name" : "NM_USUARIO",
       "data_type" : "VARCHAR2",
-      "new_value" : "tpsantos",
+      "new_value" : ,
       "old_value" : null
     }, {
       "column_name" : "DT_ATUALIZACAO",
