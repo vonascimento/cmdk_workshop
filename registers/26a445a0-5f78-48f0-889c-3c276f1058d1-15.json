@@ -29,7 +29,7 @@
     "column_values" : [ {
       "column_name" : "CD_EXPRESSAO",
       "data_type" : "NUMBER",
-      "new_value" : 1,
+      "new_value" : null,
       "old_value" : null
     }, {
       "column_name" : "NM_USUARIO",
