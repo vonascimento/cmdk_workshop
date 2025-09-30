@@ -295,7 +295,7 @@
       "primaryKey" : [ ],
       "referenceViews" : [ ],
       "responsive" : true,
-      "table" : "VVRE_TPS_AUT_CONV_HIST",
+      "table" : "    ",
       "title" : "History ",
       "titleExpressionCode" : 291339
     }
