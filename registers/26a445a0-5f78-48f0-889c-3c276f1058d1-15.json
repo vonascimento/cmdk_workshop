@@ -250,7 +250,7 @@
     "primary_key_values" : [ {
       "column_name" : "NM_TABELA",
       "data_type" : "VARCHAR2",
-      "new_value" : "VVRE_TPS_AUT_CONV_HIST2",
+      "new_value" : null,
       "old_value" : null
     }, {
       "column_name" : "NM_ATRIBUTO",
