@@ -34,7 +34,7 @@
     }, {
       "column_name" : "NM_USUARIO",
       "data_type" : "VARCHAR2",
-      "new_value" : ,
+      "new_value" : null,
       "old_value" : null
     }, {
       "column_name" : "DT_ATUALIZACAO",
