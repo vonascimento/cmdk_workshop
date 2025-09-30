@@ -7,7 +7,7 @@
       "avoidMemoryLeaks" : true,
       "dialogs" : [ {
         "code" : 109784302,
-        "route" : "alterarestagioautorizacao",
+        "route" : ,
         "title" : "Change insurance authorization stage",
         "titleExpressionCode" : 323232
       } ],
