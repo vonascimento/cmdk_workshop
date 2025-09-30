@@ -295,7 +295,7 @@
       "primaryKey" : [ ],
       "referenceViews" : [ ],
       "responsive" : true,
-      "table" : "    ",
+      "table" : 123,
       "title" : "History ",
       "titleExpressionCode" : 291339
     }
