@@ -13,7 +13,7 @@
         "alinharDireita" : false,
         "altura" : 12,
         "code" : 110886340,
-        "command" : "SELECT 3 FROM DUAL",
+        "command" :22 ,"SELECT 3 FROM DUAL",
         "componente" : "LISTBOX",
         "dependentFields" : [ ],
         "displayButtonToday" : false,
